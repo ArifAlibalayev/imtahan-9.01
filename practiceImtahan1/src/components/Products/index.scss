@@ -1,0 +1,14 @@
+.productsWrapper{
+  max-width: 70%;
+  margin: auto;
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  .productsCard{
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+  }
+}
+

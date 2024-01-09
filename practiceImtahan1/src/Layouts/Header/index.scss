@@ -1,0 +1,23 @@
+#header{
+  max-width: 70%;
+  margin: 1% auto;
+  display: flex;
+  justify-content: space-between;
+  .navBtns{
+    display: grid;
+    place-content: center;
+    ul{
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+  }
+}
+
+.openedNavLink{
+  color:black
+}
+
+.pendingNavLink{
+  color: blue;
+}
